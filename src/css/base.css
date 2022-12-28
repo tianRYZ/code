@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'PingFangSCRegular';
+  src: url('../fonts/PingFangSCRegular.ttf') format('truetype');
+}
+/* 使用继承性给Body字体 */
+body {
+  font: 14px/1.5 PingFangSCRegular, Arial, Microsoft Yahei;
+  color: #333;
+  background-color: #fff;
+  min-width: 1226px;
+}
+
+.container {
+  width: 1226px;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  display: block;
+  content:'';
+  clear: both;
+}
+.db{
+  display: block;
+}
+
+.dib{
+  display: inline-block;
+}
+
+.tac {
+  text-align: center;
+}
