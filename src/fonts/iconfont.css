@@ -16,6 +16,7 @@
       format('woff'),
     url('//at.alicdn.com/t/c/font_3614949_z9vpbly469.ttf?t=1661675355463')
       format('truetype');
+  src: url('iconfont.ttf?t=1636986116349') format('truetype');
 }
 
 .iconfont {
@@ -117,3 +118,22 @@
 .icon-xiangyou2:before {
   content: '\e776';
 }
+
+.icon-shouji:before {
+  content: "\3448";
+}
+
+
+.icon-dingbu:before {
+  content: "\e76c";
+}
+
+.icon-touxiang:before {
+  content: "\e655";
+}
+
+.icon-gongju:before {
+  content: "\e614";
+}
+
+
